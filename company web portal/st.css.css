@@ -1,0 +1,168 @@
+body{	
+	
+	
+}	
+.row{
+	margin: 0 -5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  width: 95%;
+  margin: auto;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+  font-family: arial;
+  border-radius: 5px;
+	padding:16px;
+	height: 500px;	
+	box-shadow: 3px 3px 3px 3px #110E0E;
+	z-index: 2;
+	background: linear-gradient(to right, #0033cc 0%, #ffffff 100%);
+	text-align: center;
+	
+}
+.flexbox{
+	display: flex;
+  	flex-direction: row;
+  	background-color: transparent;
+}
+.flex{
+
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  height: 400px;
+}
+.left{
+	display: flex;
+  	flex-direction: column;
+}
+.box{
+	width: 350px;
+  	margin: 10px;
+  	text-align: center;
+  	height: 180px;
+  	font-size: 30px;
+  	margin-left: 85px;
+}
+.icon{
+	float: left;	
+	padding-left: 15px;
+	padding-top: 27px;
+	padding-right: 10px;
+}
+.content p{
+	padding-left: 60px;
+	text-align: left;
+}
+.right{
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: 5px;
+	font-size: 20px;
+	height: 380px;
+	text-align: left;
+	background:transparent;
+	padding: 10px;
+}
+.right p{
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.right input[type="text"]
+{
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 35px;
+  width: 90%;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+.right input[type="email"]
+{
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 35px;
+  margin: 5px 0; 
+  width: 90%;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+.right input[type="checkbox"]
+{
+  margin: 10px 10px 0px 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 2px;
+}
+.right input span{
+  color: #777;
+  font-size: 12px;
+  bottom: 48px;
+  margin-top: -2px;
+  background-color: blue;
+  font-family: sans-serif;
+  position: absolute;
+}
+.right input[type="submit"]
+{
+  width: 90%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  border: 0;
+  color: #fff;
+  outline: none;
+  margin-left: -2px;
+  background-color: blue;
+  border-radius: 30px;
+}
+.right input[type="submit"]:hover{
+  cursor: pointer;
+  background: red;
+  color: #fff;
+}
+.right a{
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 160px;
+  line-height: 20px;
+  color: darkgrey;
+}
+.right a:hover
+{
+  color: #ffc107;
+}
+
+
+
+
+
+
+

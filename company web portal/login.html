@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login to Sasp Solutions</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="sasp.js"></script>
+</head>
+<body class="login-body">
+	<div class="login">
+		<img src="images/Login.png" class="loginicon">
+		<div class="login-box">
+			<div class="login-button">
+				<div class="l-button" id="btn"></div>
+				<button type="button" class="toggle-btn" onclick="login()">Log In</button>
+				<button type="button" class="toggle-btn" onclick="register()">Register</button> 
+			</div>
+			<div class="social-icons">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a>
+			</div>
+			<form id="login" class="login-form">
+				<p>Username</p>
+				<input type="text" name="Username" placeholder="Username" required="required">
+				<p>Password</p>
+				<input type="Password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required="required">
+				<input type="checkbox" name="check-box"><span>Remember Password</span>
+				<input type="Submit" name="" value="Login">
+				<br>
+				<a href="#">Forget Password</a>
+			</form>
+			<form id="register" class="login-form">
+				<input type="text" name="username" placeholder="Username" required="required">
+				<input type="email" name="email" placeholder="Email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="required">
+				<input type="Password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="required">
+				<input type="checkbox" name="check-box"><span>I agree to the terms and conditions</span>
+				<input type="submit" name="submit" value="Sign-up">
+				
+			</form>
+
+		</div>	
+	</div>
+</body>
+</html>
